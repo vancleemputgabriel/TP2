@@ -1,22 +1,27 @@
 #container
 {
-	margin: 0 30px;
-	background: #fff;
+color:#4682B4
+	margin: 0 24px;
+	background: #E0FFFF;
 }
 
 #header
 {
-	background: #ccc;
+	background: #E0FFFF;
 	padding: 20px;
 }
 
-#header h1 { margin: 0; }
+#header h1 { 
+
+font-family: "Agency FB", Calibri, "Californian FB", serif;
+color:#4682B4;
+margin: 0;#4682B4 }
 
 #navigation
 {
 	float: left;
 	width: 100%;
-	background: #333;
+	background: #E0FFFF;
 }
 
 #navigation ul
@@ -27,7 +32,7 @@
 
 #navigation ul li
 {
-	list-style-type: none;
+	list-style-type: circle;
 	display: inline;
 }
 
@@ -36,50 +41,52 @@
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	color: #fff;
+	color: #F8F8FF;
 	text-decoration: none;
-	border-right: 1px solid #fff;
+	border-right: 1px solid #1E90FF;
 }
 
-#navigation li a:hover { background: #383; }
+#navigation li a:hover { background: #4682B4; }
 
 #edito
 {
+color:#000080;
 	clear: left;
 	padding: 20px;
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	-webkit-box-shadow: 0px 0px 6px #1E90FF;
+	box-shadow: 0px 0px 6px #1E90FF;
+	background-image: -webkit-gradient(linear, left top, right top, from(#1E90FF), to(#1E90FF));
+	background-image: -webkit-linear-gradient(left, #1E90FF, ##1E90FF);
+	background-image: linear-gradient(left, ##1E90FF, ##1E90FF);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
 }
 
-#edito h2
+#edito h3
 {
-	color: #000;
-	font-size: 160%;
+	color: #1E90FF;
+	font-size: 190%;
 	margin: 0 0 .5em;
 }
 
 #news
-{	
+{
+color:#000080;	
 	float: left;
 	width: 40%;
 	padding: 20px;
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	-webkit-box-shadow: 0px 0px 6px #1E90FF;
+	box-shadow: 0px 0px 6px #1E90FF;
+	background-image: -webkit-gradient(linear, left top, right top, from(#1E90FF), to(#1E90FF));
+	background-image: -webkit-linear-gradient(left, ##1E90FF, ##1E90FF);
+	background-image: linear-gradient(left, ##1E90FF, ##1E90FF);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
@@ -88,7 +95,7 @@
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: ##1E90FF;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
