@@ -1,7 +1,12 @@
+*{
+	color:white;
+}
+
 #container
 {
 	margin: 0 30px;
-	background: #ffff00;
+	background: #000000;
+	color:#000000;
 }
 
 #header
@@ -51,7 +56,7 @@
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #0000ff;
-	box-shadow: 0px 0px 6px #0000ff;
+	box-shadow: 0px 0px 60px #0000ff;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
@@ -62,7 +67,7 @@
 
 #edito h2
 {
-	color: #00ff00;
+	color: #0000ff;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -76,7 +81,7 @@
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #fff000;
-	box-shadow: 0px 0px 6px #000fff;
+	box-shadow: 0px 0px 60px #0000ff;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
